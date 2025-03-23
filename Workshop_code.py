@@ -21,22 +21,22 @@ print(f"The computer chose: {computer_choice}")
 
 # if elif and else statements to show the output of the computer_choice and user_choice
 if user_choice == computer_choice:
-    print("It's a tie! 😮")
+    print("It's a tie!")
 elif user_choice == "rock":
     if computer_choice == "scissors":
-        print("You win! 💪 Rock crushes scissors.")
+        print("You win! Rock crushes scissors.")
     else:
-        print("You lose! 😢 Paper covers rock.")
+        print("You lose! Paper covers rock.")
 elif user_choice == "paper":
     if computer_choice == "rock":
-        print("You win! 💪 Paper covers rock.")
+        print("You win! Paper covers rock.")
     else:
-        print("You lose! 😢 Scissors cut paper.")
+        print("You lose! Scissors cut paper.")
 elif user_choice == "scissors":
     if computer_choice == "paper":
-        print("You win! 💪 Scissors cut paper.")
+        print("You win! Scissors cut paper.")
     else:
-        print("You lose! 😢 Rock crushes scissors.")
+        print("You lose! Rock crushes scissors.")
 else:
     print("Oops! Please choose rock, paper, or scissors next time.")
 
@@ -48,8 +48,8 @@ else:
 """import random
 
 #def play_game():
-    print("👋 Welcome to Rock, Paper, Scissors!")
-    print("Let's play a fun game against the computer 🤖")
+    print(" Welcome to Rock, Paper, Scissors!")
+    print("Let's play a fun game against the computer🤖")
 
     options = ["rock", "paper", "scissors"]
 
@@ -57,7 +57,7 @@ else:
         user_choice = input("Choose rock, paper, or scissors: ").lower()
 
         if user_choice not in options:
-            print("❗ Invalid choice. Please type rock, paper, or scissors.")
+            print(" Invalid choice. Please type rock, paper, or scissors.")
             continue
 
         computer_choice = random.choice(options)
